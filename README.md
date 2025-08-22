@@ -1,46 +1,105 @@
-# Getting Started with Create React App
+<p align="center">
+  <a href="https://github.com/Brajesh31/food-ordering">
+    <img src="https://raw.githubusercontent.com/Brajesh31/asset/main/food-ordering-banner.png" alt="Food Ordering Platform Banner">
+  </a>
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div align="center">
 
-## Available Scripts
+# 🍕 Food Ordering & Delivery Platform 🛵
 
-In the project directory, you can run:
+**A complete, real-time food ordering and delivery platform connecting customers, restaurants, and delivery agents in a seamless ecosystem.**
 
-### `npm start`
+</div>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<p align="center">
+  <a href="[LINK_TO_YOUR_LIVE_DEMO]">
+    <img src="https://img.shields.io/badge/Live-View_Demo-brightgreen?style=for-the-badge&logo=vercel" alt="Live Demo">
+  </a>
+  &nbsp;
+  <img src="https://img.shields.io/github/stars/Brajesh31/food-ordering?style=for-the-badge&color=gold" alt="Stars">
+  &nbsp;
+  <img src="https://img.shields.io/github/license/Brajesh31/food-ordering?style=for-the-badge&color=blue" alt="License">
+</p>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+---
 
-### `npm test`
+## ## ✨ Project Overview
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+This project is a full-cycle food delivery application inspired by platforms like Swiggy, Zomato, and Uber Eats. It features distinct interfaces and functionalities for three key user roles: customers, restaurant managers, and delivery agents.
 
-### `npm run build`
+The platform is built on the MERN stack and leverages **Socket.IO** for real-time communication, ensuring that order statuses, notifications, and location tracking are updated instantly across all clients. From browsing menus and placing orders to real-time delivery tracking on a map, this application provides a comprehensive and modern food ordering experience.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+[Image collage of the food ordering app]
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
+## ## ⭐ Core Features
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### For Customers 🍕
+* **User Authentication**: Secure sign-up and login.
+* **Restaurant Discovery**: Search and filter nearby restaurants.
+* **Menu Browsing**: View detailed restaurant menus with pricing.
+* **Shopping Cart**: Easily add and manage items before checkout.
+* **Secure Payments**: Integrated with **Stripe** for safe and easy payments.
+* **Real-time Order Tracking**: Track the order status (Placed, Preparing, Out for Delivery) and see the delivery agent's location on a live map.
+* **Order History**: View a history of all past orders.
 
-### `npm run eject`
+### For Restaurants 🏪
+* **Restaurant Dashboard**: A dedicated panel to manage the restaurant's profile and menu.
+* **Menu Management**: Full CRUD (Create, Read, Update, Delete) functionality for menu items and categories.
+* **Order Management**: Receive new orders in real-time, with options to accept or reject them.
+* **Live Status Updates**: Update the order status, which instantly notifies the customer.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### For Delivery Agents 🛵
+* **Delivery Dashboard**: View a list of available orders for pickup.
+* **Order Acceptance**: Accept delivery tasks.
+* **Live Location Sharing**: Share location in real-time with the customer once a delivery is started.
+* **Status Updates**: Update delivery status (e.g., "Picked Up," "Delivered").
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
+## ## 🛠️ Technology Stack
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+| Category | Technology |
+| :--- | :--- |
+| **Frontend** | [![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/) [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/) |
+| **Backend** | [![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)](https://nodejs.org/) [![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)](https://expressjs.com/) |
+| **Database** | [![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)](https://www.mongodb.com/) |
+| **Real-time Engine** | [![Socket.io](https://img.shields.io/badge/Socket.io-010101?style=for-the-badge&logo=socketdotio&logoColor=white)](https://socket.io/) |
+| **Payments** | [![Stripe](https://img.shields.io/badge/Stripe-626CD9?style=for-the-badge&logo=stripe&logoColor=white)](https://stripe.com/) |
+| **Mapping** | **Leaflet.js** with **OpenStreetMap** or **Google Maps API** |
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+---
+## ## 🚀 Getting Started
 
-## Learn More
+To get a local copy up and running, follow these detailed steps.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### ### ✅ Prerequisites
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+* **Node.js** (v18.x or later)
+* **npm** & **Git**
+* **MongoDB**: A running instance of MongoDB, either locally or a connection string from MongoDB Atlas.
+
+### ### ⚙️ Installation & Setup
+
+1.  **Clone the repository**:
+    ```sh
+    git clone [https://github.com/Brajesh31/food-ordering.git](https://github.com/Brajesh31/food-ordering.git)
+    ```
+2.  **Navigate to the project directory**:
+    ```sh
+    cd food-ordering
+    ```
+3.  **Backend Setup**:
+    * Navigate to the backend directory: `cd server`
+    * Install backend dependencies: `npm install`
+    * Create a `.env` file in the `server` directory and add the environment variables listed below.
+    * Start the backend server: `npm start`
+
+4.  **Frontend Setup**:
+    * Navigate to the frontend directory from the root folder: `cd client`
+    * Install frontend dependencies: `npm install`
+    * Start the frontend development server: `npm start`
+
+### ### 🔑 Environment Variables
+
+You need to create a `.env` file in the `server` directory and add the following variables:
