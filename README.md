@@ -104,4 +104,4 @@ To get a local copy up and running, follow these detailed steps.
 
 You need to create a `.env` file in the `server` directory and add the following variables:
 
-Last updated: 2026-11-14 08:26 UTC
+Last updated: 2026-11-14 15:27 UTC
